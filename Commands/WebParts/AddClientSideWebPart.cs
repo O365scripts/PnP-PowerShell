@@ -20,7 +20,7 @@ namespace SharePointPnP.PowerShell.Commands.WebParts
         Remarks = "Adds a Client-Side component 'HelloWorld' to the page called 'MyPage'",
         SortOrder = 3)]
     [CmdletExample(
-        Code = @"PS:> Add-PnPClientSideWebPart  -Page ""MyPage"" -Component ""HelloWorld"" -Section 1 -Column 2",
+        Code = @"PS:> Add-PnPClientSideWebPart -Page ""MyPage"" -Component ""HelloWorld"" -Section 1 -Column 2",
         Remarks = "Adds a Client-Side component 'HelloWorld' to the page called 'MyPage' in section 1 and column 2",
         SortOrder = 4)]
     public class AddClientSideWebPart : PnPWebCmdlet
